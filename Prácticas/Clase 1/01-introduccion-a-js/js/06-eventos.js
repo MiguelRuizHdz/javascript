@@ -15,7 +15,7 @@ EVENTOS DESDE JAVASCRIPT
 =============================================*/
 var boton = document.querySelector("#boton");
 
-boton.addEventListener("click",moverCaja)
+boton.addEventListener("click",moverCaja);
 
 function moverCaja(){
 
