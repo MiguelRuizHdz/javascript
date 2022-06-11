@@ -4,7 +4,6 @@
 
 // Variables Numéricas
 let numero = 5;
-numero = "hola";
 console.log("numero:", numero);
 
 // Variables de texto
