@@ -41,7 +41,7 @@ var p = 1;
 
 do{
 	console.log("p", p);
-	p++	
+	p++;
 }
 
 while(p <= 5);
