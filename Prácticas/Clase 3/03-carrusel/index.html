@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Document</title>
+
+	<!--=====================================
+	CSS
+	======================================-->
+	
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+	<!-- fontawesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+	<!-- jdSlider -->
+	<link rel="stylesheet" href="css/plugins/jdSlider.css">
+
+	<link rel="stylesheet" href="css/style.css">
+
+	<!--=====================================
+	JS
+	======================================-->	
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	
+	<!-- jdSlider -->
+	<!-- https://www.jqueryscript.net/slider/Carousel-Slideshow-jdSlider.html -->
+	<script src="js/plugins/jdSlider.js"></script>
+
+</head>
+<body>
+
+	<!--=====================================
+	HEADER Y NAV
+	======================================-->	
+
+	<header class="container-fluid bg-light">
+
+		<nav class="navbar navbar-expand-lg navbar-light bg-light container">
+
+			<a class="navbar-brand text-center" href="#">
+				
+				<img src="img/logotipo.png" style="width:150px;">
+
+			</a>
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Link</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Dropdown
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">Action</a>
+							<a class="dropdown-item" href="#">Another action</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">Something else here</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+					</li>
+				</ul>
+
+			</div>
+		</nav>
+
+	</header>
+
+	<!--=====================================
+	SLIDESHOW
+	======================================-->	
+
+	<div class="container-fluid p-0">
+		
+		<section class="jd-slider slideshow">
+
+			<div class="slide-inner">
+
+				<ul class="slide-area">
+					<li>
+						<div class="slide-text d-none d-lg-block">
+							<h3>Facultad de Ingenieria Mecanica y Electrica.</h3>
+							<p>Pagina de Bienvenida a la FIME</p>
+						</div>
+						<img src="img/slide/slide01.jpg">
+					</li>
+					<li>
+						<div class="slide-text d-none d-lg-block">
+							<h3>Facultad de Ingenieria Mecanica y Electrica.</h3>
+							<p>Informacion Acerca de la FIME</p>
+						</div>
+						<img src="img/slide/slide02.jpg">
+					</li>
+					<li>
+						<div class="slide-text d-none d-lg-block">
+							<h3>Facultad de Ingenieria Mecanica y Electrica.</h3>
+							<p>Servicios de la FIME.</p>
+						</div>
+						<img src="img/slide/slide03.jpg">
+					</li>
+					<li>
+						<div class="slide-text d-none d-lg-block">
+							<h3>Facultad de Ingenieria Mecanica y Electrica.</h3>
+							<p>Vida Estudiantil de la FIME.</p>
+						</div>
+						<img src="img/slide/slide04.jpg">
+					</li>
+				</ul>
+			</div>
+
+			<a class="prev" href="#">
+				<i class="fas fa-angle-left fa-2x text-white pl-3"></i>
+			</a>
+			<a class="next" href="#">
+				<i class="fas fa-angle-right fa-2x text-white pr-3"></i>
+			</a>
+
+			<div class="controller">
+
+				<a href="#" class="auto d-none">
+					
+					<i class="fas fa-play fa-xs"></i>
+					<i class="fas fa-pause fa-xs"></i>
+
+				</a>
+
+				<div class="indicate-area d-none d-lg-block"></div>
+			</div>
+
+		</section>
+
+	</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
